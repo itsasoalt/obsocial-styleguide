@@ -4,6 +4,20 @@ body {
 	font-weight: 400;
 	font-size: 17px;
 }
+/* DISEÑO */
+.top-style {
+	margin-top: 0;
+	padding: 60px 5% 0;	
+}
+.dark-bg-font {
+	color: #fff;
+}
+.main-content {
+	padding: 20px 0 30px;
+}
+article {
+	padding: 10px 70px;
+}
 /* TITLES */
 h1, h2, h3, h4, h5, h6 {
 	text-transform: uppercase;
@@ -47,6 +61,9 @@ a {
 }
 a:hover {
 	color: #F28D7E;
+}
+a:active {
+	color: #CD4B37;
 }
 blockquote {
 	font-size: 20px;
@@ -183,27 +200,18 @@ blockquote:after {
 }
 .btn.color-three:hover {
 	background-color: #F28D7E;
-	color: #fff;
 }
 .btn.color-one:hover {
 	background-color: #68BBAD;
+}
+.btn.color-three:active {
+	background-color: #CD4B37;
+}
+.btn.color-one:active {
+	background-color: #018D75;
+}
+.btn.color-three:hover, .btn.color-one:hover, .btn.color-three:active, .btn.color-one:active {
 	color: #fff;
-}
-/* DISEÑO */
-.top-style {
-	margin-top: 0;
-	padding: 60px 5% 0;	
-}
-.dark-bg-font {
-	color: #fff;
-}
-.main-content {
-	padding: 20px 5% 30px;
-}
-.total-width {
-	width: 100%;
-	margin: 10px -64px;
-	padding: 10px 64px;
 }
 /* MICRO CLEARFIX */
 .cf:after {
